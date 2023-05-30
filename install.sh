@@ -13,6 +13,7 @@ chmod 0600 ~/.ssh/authorized_keys
 mkdir ~/ccminer
 cd ~/ccminer
 wget https://github.com/Oink70/Android-Mining/releases/download/v0.0.0-2/ccminer
+wget https://github.com/Oink70/Android-Mining/releases/download/v0.0.0-2/ccminer-v3.8.3-oink_Ubuntu_18.04
 wget https://raw.githubusercontent.com/lolPaperclip/PaperclipCCminer/main/config.json
 chmod +x ccminer
 cat << EOF > ~/ccminer/start.sh
