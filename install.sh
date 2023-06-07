@@ -14,6 +14,7 @@ mkdir ~/ccminer
 cd ~/ccminer
 wget https://github.com/Oink70/Android-Mining/releases/download/v0.0.0-2/ccminer-v3.8.3-Pangz_ARM
 wget https://raw.githubusercontent.com/lolPaperclip/PaperclipCCminer/main/config.json
+mv ccminer-v3.8.3-Pangz_ARM ccminer
 chmod +x ccminer
 cat << EOF > ~/ccminer/start.sh
 #!/bin/sh
